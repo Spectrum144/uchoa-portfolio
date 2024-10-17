@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+
+    --main-color: #7b2cbf;
+    --text-color: #ffffff;
+    --bg-color-00: #410280;
+    --bg-color-01: #5a189a;
+    --bg-color-02: #9d4edd;     
+    --color-00: #0000001a;
+
+    /*Extra*/
+    --color-01: #8d99ae;
+    --color-02: #4a4e69;
+    --color-03: #14213d;
+    --color-04: #DB63CA;
+    --color-05: #63DB8F;    
+}
+
+html{
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--bg-color-01);
+    color: var(--text-color);
+}
+
+.blog{
+    /* justify-content: center; */
+    justify-items: center;
+    padding: 1.5rem;
+}
